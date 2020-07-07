@@ -1,0 +1,46 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 575px) {
+  .top-header {
+    padding: 20px 0 30px 0;
+  }
+  .top-header .row {
+    justify-content: center !important;
+  }
+  .top-header .col-lg-8 {
+    display: none;
+  }
+  header nav {
+    text-align: center !important;
+  }
+  .navbar-color .btn-appointment {
+    margin-top: 25px;
+  }
+  .home-section .carousel-inner {
+    text-align: center;
+  }
+  .home-section .carousel-inner .title h2 {
+    font-size: 23px;
+    width: 63%;
+    margin: auto;
+  }
+  .home-section .carousel-inner .title h1 {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  .buttons .nav {
+    justify-content: center;
+  }
+  .heading {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .agency-section .heading h3 {
+    font-size: 30px;
+  }
+  .agency-section .agency-content .content {
+    text-align: center;
+  }
+  .services-section .services-content .servise div::before {
+    width: 332px;
+  }
+}
